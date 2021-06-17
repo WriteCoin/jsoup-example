@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jsoup-example:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jsoup_example_jar</output-path>
+    <root id="archive" name="jsoup-example.jar">
+      <element id="module-output" name="jsoup-example" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/jsoup-1.13.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
