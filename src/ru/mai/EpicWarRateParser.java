@@ -220,7 +220,9 @@ public class EpicWarRateParser {
                         rateLink = link.attr("href");
                     }
                     if (!rateLink.equals("")) {
-                        browse(SITE + rateLink);
+                        String resultLink = SITE + rateLink;
+                        System.out.println("Оценка карты " + boldElements.get(0).text() + " " + resultLink);
+                        browse(resultLink);
                     }
                 }
             }
